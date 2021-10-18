@@ -1,0 +1,49 @@
+.parent{
+
+    display: block;
+    flex-flow: row wrap;
+    justify-content: end;
+    text-align: center;
+    margin: 0;
+}
+@font-face {
+    font-family: para;
+    src: url(AdobeArabic-Bold.otf)
+}
+@font-face {
+    font-family: header;
+    src: url(onaizah\ mateen-ayman.ttf);
+}
+
+h1{
+    font-family: header;
+    font-size:3em;
+    margin-bottom: 0;
+}
+h4{
+    font-family: header;
+    font-size: 2em;
+    margin: 0;
+    color: red;
+}
+p{
+    font-family: para;
+    font-size: 1em;
+    margin: 0;  
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+    font-size: 2em;
+}
+.anco{
+    margin:20px;
+    text-align: center;
+    font-family: para;
+    font-size: 15px;
+}
+a{
+    display: inline;
+    text-align: center;
+    font-size: 2em;
+}
